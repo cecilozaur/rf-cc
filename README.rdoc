@@ -1,0 +1,9 @@
+== README
+
+1. This application was written using ruby: 2.2.3p173, rails: 4.2.5 and bundle: 1.10.6
+2. As this application has some third party dependecies we need to run "bundle install" in order to install the appropiate gems
+3. This app uses sqlite as the DB driver and in order to use this the migrations must be run
+ 3.1 Run rake db:migrate
+ 3.2 Run rake db:seed (this will create the default system user, the password is not encrypted)
+4. Run rails server inside the system folder
+5. Go to http://localhost:3000, users can log in using admin@admin.com/admin or by using the github sigin functionality
